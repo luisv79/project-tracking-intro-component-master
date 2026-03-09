@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="cabecera">
+      <img class="logo" src="assets/images/logo.svg" alt="Monograph logo">
+      
+     
+      <img class="hamburger" onclick="menu()" src="assets/images/icon-hamburger.svg" alt="hamburger"> 
+      <img class="close" onclick="menu()" src="assets/images/icon-close.svg" alt="close"> 
+
+      <div class="menu-desktop">
+        <ul>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <span class="circulo"></span>
+        <a class="login-menu" href="#">Login</a>
+      </div>
+      
+    </div>
+    <div class="menu" id="menu-mobile">
+      
+        <ul>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <hr>
+      <a class="login-menu" href="#">Login</a>
+     </div>
+
+
+
+  </header>
+  <main>
+    <div class="hero">
+      <div class="imagen-hero"></div>
+      <div class="texto-hero">
+        <h6><span>New</span> Monograph Dashboard</h6>
+        <h1>Powerful insights into your team</h1>
+        <P>Project planning and time tracking for agile teams</P>
+        <div class="boton-hero"><button>Schedule a demo</button><p>to see a live preview</p></div>
+        
+      </div>
+    </div>
+  </main>
+
+ 
+
+  
+ 
+
+
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Luis Valladares</a>.
+    </p>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

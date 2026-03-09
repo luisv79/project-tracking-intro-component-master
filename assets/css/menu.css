@@ -1,0 +1,4 @@
+/* CSS for toggling visibility */
+.hidden {
+    display: none;
+}
